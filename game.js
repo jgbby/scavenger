@@ -4,18 +4,21 @@ document.getElementById("tint").height = window.innerHeight;
 document.getElementById("tint").style.position = "absolute";
 
 
-// When the A-Frame loads add the given entities specified in the URL
-// Retrieve list of pairs of latitude and longitude
-var entities = parseURL(window.location.search);
-var destCount = 0;              // number of destinations successfully visited
-let coordinateList = [];        // 
-var firstDistance = 0;
-var targetLat = 0;
-var targetLong = 0;
-var cnt = false;
-const colorArray = ['#FF0000', '#FF0000', '#990066', '#660099', '#3300CC', '#0000FF'];
+window.onload = () => {
+    // When the A-Frame loads add the given entities specified in the URL
+    // Retrieve list of pairs of latitude and longitude
+    var entities = parseURL(window.location.search);
+    var destCount = 0;              // number of destinations successfully visited
+    let coordinateList = [];        // 
+    var firstDistance = 0;
+    var targetLat = 0;
+    var targetLong = 0;
+    var cnt = false;
+    const colorArray = ['#FF0000', '#FF0000', '#990066', '#660099', '#3300CC', '#0000FF'];
 
-main(0);
+    main(0);
+}
+
 
 
 function main() {
