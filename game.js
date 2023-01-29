@@ -9,6 +9,7 @@ console.log("Loading!")
 // When the A-Frame loads add the given entities specified in the URL
 // Retrieve list of pairs of latitude and longitude
 var entities = parseURL(window.location.search);
+var numPoints = entities.length;
 var destCount = 0;              // number of destinations successfully visited
 let coordinateList = [];        // 
 var firstDistance = 0;
