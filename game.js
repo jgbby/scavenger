@@ -24,8 +24,8 @@ main(0);
 
 function main() {
 
+    getLocation();
     while(destCount < numPoints) {
-        getLocation();
         targetLat = entities[destCount].lat;
         targetLong = entities[destCount].lon;
     }

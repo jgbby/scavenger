@@ -1,0 +1,13 @@
+CIT
+41.826835; -71.399710
+
+SciLi
+41.826803; -71.400144
+
+MacMillian
+41.826362; -71.400051
+
+Horse Statue
+41.826250; -71.401897
+
+https://eloquent-seahorse-bb168a.netlify.app/?entities=41.826835_-71.399710,41.826250_-71.401897
