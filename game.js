@@ -24,7 +24,8 @@ main(0);
 
 function main() {
 
-    getLocation();
+    
+    setTimeout(getLocation, 1000);
     while(destCount < numPoints) {
         targetLat = entities[destCount].lat;
         targetLong = entities[destCount].lon;
@@ -97,7 +98,6 @@ function getLocation() {
     console.log('Checking location...');
     navigator.geolocation.getCurrentPosition(success, error);
     }
-    setTimeout(getLocation, 1000);
 }
 
 function success(position) {
