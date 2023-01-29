@@ -5,6 +5,9 @@ document.getElementById("tint").style.position = "absolute";
 
 
 window.onload = () => {
+
+    console.log("Loading!");
+
     // When the A-Frame loads add the given entities specified in the URL
     // Retrieve list of pairs of latitude and longitude
     var entities = parseURL(window.location.search);
